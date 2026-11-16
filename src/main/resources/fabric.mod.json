@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "crimetown",
+  "version": "${version}",
+  "name": "CrimeTown",
+  "description": "Криминально-сатирический городок: банк с плавающим курсом, казино, оружейная, барыги, концерты и путь к званию Босса.",
+  "authors": ["CrimeTown"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.crimetown.CrimeTown"],
+    "client": ["com.example.crimetown.client.CrimeTownClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
